@@ -1,0 +1,694 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Russo+One&display=swap");
+
+/* common styles */
+:root {
+  --primary--color: #00668d;
+  --title--color: #1e1e1e;
+}
+
+.title {
+  color: var(--title--color);
+  font-family: Rubik;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.description {
+  color: #4f4f4f;
+  font-family: Roboto;
+  line-height: 150%;
+}
+
+.tiny-title {
+  color: var(--Primary, #00668d);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 164%;
+  text-transform: capitalize;
+}
+
+.custom-container {
+  max-width: 1600px !important;
+  margin: 0 auto;
+}
+
+.custom-container2 {
+  max-width: 1413px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+/* Navbar section starts */
+
+.title {
+  color: var(--title--color);
+  font-family: Rubik;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.description {
+  color: #4f4f4f;
+  font-family: Roboto;
+  line-height: 150%;
+}
+
+.tiny-title {
+  color: var(--Primary, #00668d);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 164%;
+  text-transform: capitalize;
+}
+
+.container {
+  max-width: 1600px !important;
+  margin: 0 auto;
+}
+/* hero section styles */
+.hero {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: url("../images/project-banner.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* Dark overlay */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.76);
+  z-index: 1;
+}
+
+.hero-content {
+  padding: 142px 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  max-width: 1154px;
+  color: var(--60-background-white, #fff);
+  font-family: Rubik, sans-serif;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.hero-content p {
+  max-width: 952px;
+  color: var(--60-background-white, #fff);
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  line-height: 164%;
+  text-align: center;
+}
+
+/* banner section end */
+
+/* overview container styles */
+.overview-container {
+  padding: 150px;
+}
+
+.overview-heading {
+  padding-bottom: 80px;
+}
+
+.overview-heading .description {
+  text-align: center;
+}
+
+.overview-heading .title {
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.overview-heading p {
+  max-width: 1156px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.overview-cards {
+  display: flex;
+  gap: 40px;
+}
+
+.overview-content {
+  max-width: 517px;
+  max-height: 500px;
+  width: 100%;
+  border-radius: 12px;
+  background: var(--Primary, #00668d);
+  color: var(--60-background-white, #fff);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.location img {
+  margin-bottom: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.address {
+  font-size: 16px;
+  color: var(--60-background-white, #fff);
+}
+
+.overview-content h1 {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+  padding-bottom: 8px;
+}
+
+.overview-content .address {
+  font-family: Roboto;
+  line-height: 150%;
+  padding-bottom: 8px;
+}
+
+.overview-content .outcome {
+  color: var(--6030-light-neutrals-02, #f4f5f7);
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 164%;
+  text-transform: capitalize;
+  padding-bottom: 16px;
+}
+
+.overview-img {
+  position: relative;
+  width: 100%;
+  /* Ensure the container is responsive */
+  height: auto;
+  /* Maintain aspect ratio of the image */
+}
+
+.before-renovation,
+.after-renovation {
+  position: absolute;
+  border-radius: 4px;
+  background: var(--Foundation-Blue-Primary-Light, #e8f1f3);
+  color: var(--Text-Heading, #1e1e1e);
+  font-family: Rubik;
+  padding: 12px 24px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.before-renovation {
+  bottom: 32px;
+  left: 80px;
+}
+
+.after-renovation {
+  bottom: 32px;
+  right: 120px;
+}
+
+.overview-cards .overview-img img {
+  max-width: 1043px;
+  width: 100%;
+  max-height: 500px;
+  border-radius: 12px;
+}
+
+/* highlights styles */
+.highlights-cards {
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
+}
+
+.highlights-cards .scope,
+.highlights-cards .challenges,
+.highlights-cards .outcome {
+  border-radius: 12px;
+  padding: 40px 24px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.highlights-cards .scope {
+  background: #e6e6f9;
+}
+
+.highlights-cards .challenges {
+  background: #fce7f2;
+}
+
+.highlights-cards .outcome {
+  background: #e8f1f3;
+}
+
+.icon-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.challenges,
+.highlights-cards,
+.outcome .description {
+  text-align: center;
+}
+/* Hover effects */
+.highlights-cards .scope:hover,
+.highlights-cards .challenges:hover,
+.highlights-cards .outcome:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon-header h2 {
+  color: var(--Text-Heading, #1e1e1e);
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 164%;
+  text-transform: capitalize;
+}
+
+/* transformation section styles */
+.transformation-container {
+  margin-bottom: 150px;
+}
+
+.tranformation-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.tranformation-heading p {
+  max-width: 1060px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+.transformation-images img {
+  max-width: 788px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  transition: transform 0.4s ease, opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.transformation-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.transformation-images img:hover {
+  transform: scale(1.02);
+  opacity: 0.8;
+}
+
+
+@media only screen and (min-width: 1600px) {
+}
+
+/* laptop devices */
+@media only screen and (min-width: 1366px) and (max-width: 1600px) {
+  .title {
+    font-size: 28px;
+  }
+  .custom-container {
+    padding-inline: 16px;
+}
+
+  .description {
+    font-size: 16px;
+  }
+  nav {
+    display: none;
+  }
+
+  /* hero section styles */
+  .hero-content h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  .hero-content p {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  /* overview container styles */
+  .overview-container {
+    padding: 80px 16px;
+  }
+  .overview-content {
+    max-width: 100%;
+  }
+  .overview-heading {
+    padding: 30px;
+  }
+
+  .overview-cards .overview-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .before-renovation,
+  .after-renovation {
+    font-family: Rubik;
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .before-renovation {
+    bottom: 32px;
+    left: 32px;
+  }
+
+  .after-renovation {
+    bottom: 32px;
+    right: 32px;
+  }
+
+  /* transformation section styles */
+  .transformation-container {
+    padding-inline: 16px;
+    margin-bottom: 100px;
+  }
+}
+
+/* large tablet devices */
+@media only screen and (min-width: 992px) and (max-width: 1365px) {
+  .custom-container {
+    padding-inline: 16px;
+}
+  .title {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+  nav {
+    display: none;
+  }
+
+  /* hero section styles */
+  .hero-content h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  .hero-content p {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  /* overview container styles */
+  .overview-container {
+    padding: 40px 16px;
+  }
+
+  .overview-heading h1 {
+    padding-bottom: 16px;
+  }
+  .overview-content {
+    max-width: 100%;
+    padding: 24px 0px;
+  }
+
+  .overview-card-heading {
+    padding: 40px;
+  }
+
+  .overview-cards .overview-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .before-renovation,
+  .after-renovation {
+    font-family: Rubik;
+    padding: 12px 12px;
+    font-size: 14px;
+  }
+
+  .before-renovation {
+    bottom: 16px;
+    left: 16px;
+  }
+
+  .after-renovation {
+    bottom: 16px;
+    right: 16px;
+  }
+  .before-renovation,
+  .after-renovation, h3{
+    font-size: 20px;
+  }
+
+
+  /* transformation section styles */
+  .transformation-container {
+    padding-inline: 16px;
+    margin-bottom: 60px;
+  }
+}
+
+/* medium tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .custom-container {
+    padding-inline: 16px;
+}
+  .title {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+  nav {
+    display: none;
+  }
+
+  /* hero section styles */
+  .hero {
+    height: 420px;
+  }
+  .hero-content h1 {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .hero-content p {
+    font-size: 14px;
+    margin-bottom: 16px;
+    padding-inline: 16px;
+  }
+
+  /* overview container styles */
+  .overview-container {
+    padding: 40px  16px;
+  }
+
+  .overview-heading h1 {
+    padding-bottom: 16px;
+  }
+
+  .overview-cards {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .overview-content {
+    max-width: 100%;
+    padding: 24px 0px;
+  }
+
+  .overview-card-heading {
+    padding: 40px;
+  }
+  .before-renovation,
+  .after-renovation {
+    padding: 16px 16px;
+    font-size: 16px;
+  }
+
+  .before-renovation {
+    bottom: 48px;
+    left: 48px;
+  }
+
+  .after-renovation {
+    bottom: 48px;
+    right: 48px;
+  }
+  /* transformation section styles */
+  .transformation-container {
+    padding-inline: 16px;
+    margin-bottom: 40px;
+  }
+
+  .tranformation-heading {
+    margin-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  .transformation-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*  mobile devices */
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  /* Hide the navigation on small screens */
+  .custom-container {
+    padding-inline: 16px;
+}
+  .logo img {
+    width: 138px;
+    height: 28px;
+  }
+  .logo p {
+    font-size: 24px;
+  }
+  /* hero section styles */
+  .hero {
+    height: 420px;
+  }
+
+  /* Hero Section */
+  .hero-content {
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .hero-content h1 {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .hero-content p {
+    font-size: 14px;
+    margin-bottom: 16px;
+    padding-inline: 16px;
+  }
+
+  .quotes-btn {
+    display: none;
+  }
+
+  /* overview container styles */
+  .overview-container {
+    padding: 40px 16px;
+  }
+  .overview-heading {
+    padding-block: 30px;
+  }
+
+  .overview-heading h1 {
+    padding-bottom: 16px;
+  }
+
+  .overview-cards {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .overview-content {
+    max-width: 100%;
+    padding: 24px 0px;
+  }
+
+  .overview-card-heading {
+    padding: 20px;
+  }
+
+  .overview-cards .overview-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .before-renovation,
+  .after-renovation {
+    font-family: Rubik;
+    padding: 12px 12px;
+    font-size: 14px;
+  }
+
+  .before-renovation {
+    bottom: 16px;
+    left: 16px;
+  }
+
+  .after-renovation {
+    bottom: 16px;
+    right: 16px;
+  }
+  .before-renovation,
+  .after-renovation, h3{
+    font-size: 14px;
+  }
+  .icon-header {
+    justify-content: center;
+  }
+
+  /* highlights styles */
+  .highlights-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* transformation section styles */
+  .transformation-container {
+    padding-inline: 16px;
+    margin-bottom: 40px;
+  }
+
+  .tranformation-heading {
+    margin-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  .transformation-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  
+}

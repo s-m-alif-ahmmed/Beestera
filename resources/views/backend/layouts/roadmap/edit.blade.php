@@ -1,0 +1,105 @@
+@extends('backend.app')
+
+@section('title', 'Edit RoadMap Content')
+
+@section('content')
+    <div class="container-fluid">
+        <div class="mt-4 row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Edit RoadMap Content</h3>
+                    </div>
+                    <div class="p-5">
+                        <form action="{{ route('roadmap.content.update', $roadmap->id) }}" method="POST"
+                            enctype="multipart/form-data">
+                            @csrf
+                            @method('PUT')
+
+                            <div class="mb-3">
+                                <label for="title" class="form-label">Title</label>
+                                <input type="text" class="form-control" id="title" name="title"
+                                    placeholder="Enter Title" value="{{ old('title', $roadmap->title) }}">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="category" class="form-label">Category</label>
+                                <select class="form-control" id="category" name="category" required>
+                                    <option value="MOVEMENT"
+                                        {{ isset($roadmap) && $roadmap->category == 'MOVEMENT' ? 'selected' : '' }}>MOVEMENT
+                                    </option>
+                                    <option value="MANIPULATION"
+                                        {{ isset($roadmap) && $roadmap->category == 'MANIPULATION' ? 'selected' : '' }}>
+                                        MANIPULATION</option>
+                                    <option value="CONTROL"
+                                        {{ isset($roadmap) && $roadmap->category == 'CONTROL' ? 'selected' : '' }}>CONTROL
+                                    </option>
+                                    <option value="STRIKING"
+                                        {{ isset($roadmap) && $roadmap->category == 'STRIKING' ? 'selected' : '' }}>STRIKING
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="photo" class="form-label">photo:</label>
+                                        <input type="file" class="dropify @error('photo') is-invalid @enderror"
+                                            name="photo" id="photo"
+                                            data-default-file="{{ isset($roadmap->photo) ? asset($roadmap->photo) : '' }}">
+                                        @error('photo
+
+                                            ')
+                                            <span class="text-danger">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+
+                                <!-- Description Field -->
+                                <div class="mb-3">
+                                    <label for="description" class="form-label">Description</label>
+                                    <textarea class="form-control" id="description" name="description" rows="3" placeholder="Enter Description">{{ old('description', $roadmap->description) }}</textarea>
+                                </div>
+
+                                <!-- Details Field with Summernote Editor -->
+                                <div class="form-group">
+                                    <label for="summernote" class="form-label">Details:</label>
+                                    <textarea class="form-control @error('details') is-invalid @enderror" id="summernote" name="details"
+                                        placeholder="Details">{{ old('details', $roadmap->details) }}</textarea>
+                                    @error('details')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label for="vimeo_id" class="form-label">Vimeo ID</label>
+                                    <input type="text" class="form-control" id="youtube_link" name="vimeo_id"
+                                        placeholder="Enter Vimeo ID"
+                                        value="{{ old('vimeo_id', $roadmap->vimeo_id ?? '') }}">
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label for="status" class="form-label">Status</label>
+                                    <select class="form-control" id="status" name="status">
+                                        <option value="active"
+                                            {{ old('status', $roadmap->status) == 'active' ? 'selected' : '' }}>
+                                            Active</option>
+                                        <option value="inactive"
+                                            {{ old('status', $roadmap->status) == 'inactive' ? 'selected' : '' }}>
+                                            Inactive
+                                        </option>
+                                    </select>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Update RoadMap</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+@endsection

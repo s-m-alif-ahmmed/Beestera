@@ -1,0 +1,1303 @@
+@media only screen and (min-width: 1600px) {
+  .card-wrapper4 {
+    height: 450px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: var(--lightRed);
+  }
+}
+
+/* laptop devices */
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+  .benefits-wrapper {
+    height: 100%;
+  }
+  .banner-text-wrapper {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #fff;
+    padding: 0 50px;
+  }
+  .custom-container2 {
+    margin: 165px 168px;
+  }
+  .custom-container3 {
+    padding: 100px 118px;
+  }
+  .cards-container {
+    padding: 80px 60px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 40px;
+  }
+  .works-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .property-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .sm-card-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+  .sm-finance-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .connect-svg1,
+  .connect-svg2,
+  .connect-svg3 {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+  }
+  .contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+
+/* large tablet devices */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .banner-text-wrapper {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #fff;
+    padding: 0 50px;
+  }
+  .banner-headline {
+    font-family: rubik;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    padding: 0 60px;
+  }
+  .custom-container2 {
+    margin: 80px;
+  }
+  .property-custom-container {
+    margin: 128px 160px 120px 160px;
+  }
+  .works-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  .how-it-works-container {
+    margin: 100px 80px;
+  }
+  .works-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .cardHeadline {
+    font-size: 40px;
+  }
+  .cardheader {
+    font: 20px;
+  }
+  .property-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .cards-container {
+    padding: 80px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .sm-finance-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .sm-loan-card-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .sm-card-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+  .connect-svg1,
+  .connect-svg2,
+  .connect-svg3 {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+  }
+  .benefits-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding: 80px 0;
+    gap: 24px;
+  }
+  .sell-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding: 40px 0;
+  }
+  .connect-cards-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    align-items: center;
+  }
+  .contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  /* .contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .contact-form-wrapper input {
+    width: 100% !important;
+    border-radius: 6px;
+    border: 1px solid var(--Stoke, #bdbdbd);
+    padding: 13px 24px;
+  } */
+  .sm-blogs-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+}
+
+/* medium tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner-text-wrapper {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #fff;
+    padding: 0 50px;
+    font-size: 10px;
+  }
+  .banner-headline {
+    font-family: rubik;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .custom-container2 {
+    margin: 80px 80px;
+  }
+  .custom-container3 {
+    padding: 80px 80px;
+  }
+  .property-custom-container {
+    margin: 80px;
+  }
+  .how-it-works-container {
+    margin: 50px 70px;
+  }
+  .works-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .custom-container {
+    margin: 80px 80px;
+  }
+  .property-custom-container {
+    margin: 80px;
+  }
+  .table-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+  }
+  .works-text {
+    margin-top: 100px;
+  }
+  .cardHeadline {
+    font-size: 40px;
+  }
+  .property-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .card-wrapper3 {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: var(--lightPurple);
+  }
+  .card-wrapper4 {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: var(--lightPurple);
+  }
+  .card-wrapper-image img {
+    height: auto;
+  }
+  .sell-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding: 60px 0;
+  }
+  .sm-finance-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .finance-image img {
+    width: 688px;
+    height: 604px;
+    object-fit: cover;
+  }
+  .sm-loan-card-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .sm-card-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+  .svg {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding: 18px;
+    align-items: center;
+    border-radius: 50px;
+    background: #fff;
+  }
+  .svg img {
+    padding: 4px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .connect-svg1,
+  .connect-svg2,
+  .connect-svg3 {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+  }
+  .connect-card1 {
+    height: auto;
+  }
+  
+  .benefits-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding: 80px 0;
+    gap: 24px;
+  }
+  .benefits-wrapper {
+    height: auto;
+  }
+  .connect-cards-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    align-items: center;
+  }
+  .contact-form-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .sm-blogs-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+}
+
+/* small tablet devices */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .banner-text-wrapper h1 {
+    font-size: 40px;
+  }
+  .works-text {
+    margin-top: 80px;
+  }
+  .banner-headline {
+    font-family: rubik;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    padding: 0 0px;
+  }
+  .banner-text-wrapper p {
+    font-size: 16px;
+  }
+  .custom-container2 {
+    margin: 80px 60px;
+  }
+  .custom-container3 {
+    padding: 80px 60px;
+  }
+  .property-custom-container {
+    margin: 60px 16px;
+  }
+  .how-it-works-container {
+    margin: 40px 60px;
+  }
+  .works-custom-container {
+    margin: 40px 0;
+  }
+  .works-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .custom-container {
+    margin: 80px 60px;
+  }
+  .table-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+  }
+  .styled-table th,
+  .styled-table td {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid var(--Stroke-2);
+    font-size: 14px;
+  }
+  .cardHeadline {
+    font-size: 20px;
+  }
+  .selling-heading-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 60px 0 80px 0;
+    color: var(--Text-Heading);
+  }
+  .property-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .cards-wrapper {
+    padding: 20px;
+  }
+  .card-wrapper3 {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: var(--lightPurple);
+  }
+  .card-wrapper4 {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: var(--lightPurple);
+  }
+  .card-wrapper-image img {
+    height: auto;
+  }
+  .sell-cards-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    padding: 40px 0;
+  }
+  .svg {
+    display: flex;
+    width: 72px;
+    height: 72px;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #fff;
+  }
+  .svg img {
+    padding: 4px;
+    width: 56px;
+    height: 56px;
+  }
+  .connect-card1 {
+    height: auto;
+  }
+  
+  .connect-svg1,
+  .connect-svg2,
+  .connect-svg3 {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+  }
+
+  .sm-finance-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .sm-loan-card-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .sm-card-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+  .benefits-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding: 80px 0;
+    gap: 24px;
+  }
+  .benefits-card-wrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: #fff;
+  }
+  .benefits-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    height: auto;
+    padding: 60px 40px;
+    border-radius: 12px;
+    background: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .connect-cards-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    align-items: center;
+  }
+  .contact-form-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .input-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 16px;
+  }
+  .contact-form-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+  }
+  .sm-blogs-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+  }
+  .sm-time-gray {
+    font-size: 15px;
+  }
+}
+
+/* large mobile devices */
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+  .banner-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+      url("../images/banner/hoow-it-works-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sm-blogs-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+  }
+  .sm-time-gray {
+    font-size: 15px;
+  }
+  .cards-container {
+    padding: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .works-text {
+    margin-top: 70px;
+  }
+  .banner-headline {
+    font-family: rubik;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    padding: 0 0px;
+  }
+  .banner-text-wrapper {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 10px;
+  }
+  .banner-text-wrapper h1 {
+    font-size: 35px;
+  }
+  .banner-text-wrapper p {
+    font-size: 16px;
+  }
+  .custom-container2 {
+    margin: 50px 16px;
+  }
+  .custom-container3 {
+    padding: 50px 16px;
+  }
+  .property-custom-container {
+    margin: 40px 16px;
+  }
+  .how-it-works-container {
+    margin: 30px 20px;
+  }
+  .works-custom-container {
+    margin: 30px 0;
+  }
+  .works-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  .custom-container {
+    margin: 80px 20px;
+  }
+  .table-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+  }
+  .styled-table th,
+  .styled-table td {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid var(--Stroke-2);
+    font-size: 13px;
+  }
+  .cardHeadline {
+    font-size: 24px;
+  }
+  .cardheader {
+    font: 18px;
+  }
+  .selling-heading-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 60px 0 80px 0;
+    color: var(--Text-Heading);
+  }
+  .property-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  .property-card-textbody {
+    font-size: 14px;
+  }
+  .property-card-textbody h4 {
+    font-size: 18px;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .cards-wrapper {
+    padding: 20px;
+  }
+  .card-wrapper3 {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: var(--lightPurple);
+  }
+  .card-wrapper4 {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: var(--lightPurple);
+  }
+  .card-wrapper-image img {
+    height: auto;
+  }
+  .sell-cards-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    padding: 40px 0;
+  }
+  .svg {
+    display: flex;
+    width: 72px;
+    height: 72px;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #fff;
+  }
+  .svg img {
+    padding: 4px;
+    width: 56px;
+    height: 56px;
+  }
+  .connect-card1 {
+    height: auto;
+  }
+  
+  .connect-svg1,
+  .connect-svg2,
+  .connect-svg3 {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+  }
+  .sm-finance-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .sm-loan-card-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .sm-card-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+  .benefits-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding: 80px 0;
+    gap: 24px;
+  }
+  .benefits-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    height: 470px;
+    padding: 60px 40px;
+    border-radius: 12px;
+    background: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .connect-cards-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    align-items: center;
+  }
+  .contact-form-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .input-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 16px;
+  }
+  .benefits-card-wrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: #fff;
+  }
+  .contact-form-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+/* mobile devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .banner-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+      url("../images/banner/hoow-it-works-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sm-blogs-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+  }
+  .sm-time-gray {
+    font-size: 13px;
+  }
+  .benefits-card-wrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: #fff;
+  }
+  .cards-container {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .cards-wrapper {
+    padding: 20px;
+  }
+  .cards-wrapper,
+  .cards-wrapper2,
+  .cards-wrapper3,
+  .cards-wrapper4 {
+    height: auto;
+    padding: 20px;
+  }
+  .card-wrapper-image img {
+    width: 100%;
+    height: auto;
+  }
+  .works-text {
+    margin-top: 50px;
+  }
+  .custom-container {
+    margin: 20px 160px;
+  }
+  .banner-headline {
+    font-family: rubik;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    padding: 0 0px;
+  }
+  .banner-text-wrapper {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+    padding: 0 20px;
+  }
+  .banner-text-wrapper h1 {
+    font-size: 30px;
+  }
+  .banner-text-wrapper p {
+    font-size: 16px;
+  }
+  .custom-container2 {
+    margin: 50px 16px;
+  }
+  .custom-container3 {
+    padding: 50px 16px;
+  }
+  .property-custom-container {
+    margin: 60px 16px;
+  }
+  .how-it-works-container {
+    margin: 30px 20px;
+  }
+  .works-custom-container {
+    margin: 30px 0;
+  }
+  .works-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  .custom-container {
+    margin: 80px 20px;
+  }
+  .table-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+  }
+  .truncate {
+    overflow: hidden;
+  }
+  .styled-table th,
+  .styled-table td {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid var(--Stroke-2);
+    font-size: 13px;
+  }
+  .cardHeadline {
+    font-size: 24px;
+  }
+  .cardheader {
+    font-size: 14px;
+    /* margin-bottom: 20px; */
+    margin-top: 15px;
+  }
+  .selling-heading-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 60px 0 20px 0;
+    color: var(--Text-Heading);
+  }
+  .sm-screen-p {
+    font-size: 13px;
+  }
+  .property-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  .property-sectionHeadingText {
+    padding-bottom: 20px;
+  }
+  .property-card-textbody,
+  .card-text p {
+    font-size: 14px;
+  }
+  .property-card-textbody h4,
+  .card-text h4 {
+    font-size: 18px;
+  }
+  nav {
+    display: none;
+  }
+  .contact-form-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 0 0;
+    gap: 20px;
+  }
+  .card-wrapper3 {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: var(--lightPurple);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card-wrapper4 {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: var(--lightPurple);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card-wrapper3:hover {
+    border: 1px solid #00668d;
+    transform: translateY(-10px);
+  }
+  .card-wrapper4:hover {
+    border: 1px solid #00668d;
+    transform: translateY(-10px);
+  }
+  .card-wrapper-image {
+    transition: transform 0.5s ease;
+  }
+
+  .card-wrapper-image:hover {
+    transform: scale(1.05);
+  }
+
+  .card-wrapper4 {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: var(--lightPurple);
+  }
+  .process-card-wrapper {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: var(--lightPurple);
+  }
+
+  .process-card-wrapper2 {
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 12px;
+    background: var(--lightRed);
+  }
+
+  .sell-cards-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    padding: 40px 0;
+  }
+  .connect-card-text {
+    gap: 5px;
+  }
+  .connect-card1,
+  .connect-card2,
+  .connect-card3 {
+    height: auto;
+    overflow: hidden;
+  }
+  .connect-card1 {
+    height: auto;
+  }
+  
+  .connect-svg1,
+  .connect-svg2,
+  .connect-svg3 {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+  }
+  .sm-finance-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    gap: 24px;
+    margin-top: -50px;
+  }
+  .sm-loan-card-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .sm-card-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+  .svg {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #fff;
+  }
+  .svg img {
+    padding: 4px;
+    width: 48px;
+    height: 48px;
+  }
+  .finance-image img {
+    width: 100%;
+  }
+  .benefits-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding: 20px 0;
+    gap: 24px;
+  }
+  .benefits-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    height: 100%;
+    padding: 20px 20px;
+    border-radius: 12px;
+    background: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .connect-cards-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    align-items: center;
+  }
+  .contact-form-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .input-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 16px;
+  }
+  .works-text {
+    margin-bottom: -50px;
+  }
+  .benefits {
+    padding: 0 10px;
+  }
+  .location-image {
+    width: 100%;
+    height: 400px;
+  }
+  .location-image iframe {
+    width: 100%;
+    height: 400px;
+    border-radius: 16px;
+  }
+}
+
+/* extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .banner-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+      url("../images/banner/hoow-it-works-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cards-container {
+    padding: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .banner-headline {
+    font-family: rubik;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    padding: 0 0px;
+  }
+  .banner-text-wrapper {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+    padding: 0 20px;
+  }
+  .banner-text-wrapper h1 {
+    font-size: 25px;
+  }
+  .banner-text-wrapper p {
+    font-size: 16px;
+  }
+  .how-it-works-container {
+    margin: 30px 20px;
+  }
+  .works-custom-container {
+    margin: 30px 0;
+  }
+  .works-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  .custom-container {
+    margin: 80px 20px;
+  }
+  .property-custom-container {
+    margin: 60px 16px;
+  }
+  .table-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+  }
+  .styled-table th,
+  .styled-table td {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid var(--Stroke-2);
+    font-size: 13px;
+  }
+  .cardHeadline {
+    font-size: 24px;
+  }
+  .property-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+}
